@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Vendor_Type__c</fullName>
+    <label>Vendor Type</label>
+    <required>false</required>
+    <trackHistory>false</trackHistory>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>true</sorted>
+            <value>
+                <fullName>Adventure Activities (Trekking, Rafting, etc.)</fullName>
+                <default>false</default>
+                <label>Adventure Activities (Trekking, Rafting, etc.)</label>
+            </value>
+            <value>
+                <fullName>Boat Service</fullName>
+                <default>false</default>
+                <label>Boat Service</label>
+            </value>
+            <value>
+                <fullName>Cab / Taxi Service</fullName>
+                <default>false</default>
+                <label>Cab / Taxi Service</label>
+            </value>
+            <value>
+                <fullName>Event Organizer</fullName>
+                <default>false</default>
+                <label>Event Organizer</label>
+            </value>
+            <value>
+                <fullName>Guide</fullName>
+                <default>false</default>
+                <label>Guide</label>
+            </value>
+            <value>
+                <fullName>Hotel</fullName>
+                <default>false</default>
+                <label>Hotel</label>
+            </value>
+            <value>
+                <fullName>Local Shops</fullName>
+                <default>false</default>
+                <label>Local Shops</label>
+            </value>
+            <value>
+                <fullName>Others</fullName>
+                <default>false</default>
+                <label>Others</label>
+            </value>
+            <value>
+                <fullName>Photographer</fullName>
+                <default>false</default>
+                <label>Photographer</label>
+            </value>
+            <value>
+                <fullName>Restaurants</fullName>
+                <default>false</default>
+                <label>Restaurants</label>
+            </value>
+            <value>
+                <fullName>Transport (Bus/Train Agents)</fullName>
+                <default>false</default>
+                <label>Transport (Bus/Train Agents)</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
